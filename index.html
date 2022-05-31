@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"> 
+    
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                <a href="/">
+                    <img  class="header__logo" src="build/img/logo.svg" alt="imagen logo">
+                </a>
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Inicio</a>
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="blog.html">Blog</a>
+                    <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+                </nav>
+            </div> <!--.header__barra-->
+
+            <div class="modelo">
+                <h1 class="modelo__nombre">Modelo VAI</h1>
+                <p class="modelo__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit facere placeat, fugit ipsum obcaecati debitis ipsa laborum voluptate nam numquam nihil accusantium aliquam harum ea, amet alias ratione odio asperiores?</p>
+                <p class="modelo__precio">$555.000</p>
+                <a href="producto.html" class="modelo__enlace">Ver Producto</a>
+            </div>
+        </div>
+
+        <picture>
+            <source srcset="build/img/header_guitarra.avif" type="image/avif">
+            <source srcset="build/img/header_guitarra.webp" type="image/webp">
+            <img class="header__guitarra" src="build/img/header_guitarra.png" alt="imagen header guitarra">
+        </picture>
+    </header>
+
+    <main class="productos productos__contenedor">
+        <h2 class="productos__heading">Nuestra Colección</h2>
+
+        <div class="productos__grid">
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_01.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_01.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_01.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Lukather</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_02.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_02.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_02.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">SRV</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_03.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_03.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_03.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Borland</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_04.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_04.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_04.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">VAI</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_05.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_05.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_05.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Thompson</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_06.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_06.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_06.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">White</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_07.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_07.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_07.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Cobain</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_08.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_08.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_08.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Dale</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_09.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_09.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_09.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Krieger</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_10.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_10.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_10.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Campbell</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_11.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_11.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_11.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Reed</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+            <div class="producto">
+                <picture>
+                    <source loading="lazy" srcset="build/img/guitarra_12.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/guitarra_12.webp" type="image/webp">
+                    <img class="producto__imagen" loading="lazy" src="build/img/guitarra_12.jpg" alt="imagen guitarra">
+                </picture>
+
+                <div class="producto__contenido">
+                    <h3 class="producto__nombre">Hazel</h3>
+                    <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aspernatur hic dolorem aliquam voluptatum voluptates id facere.</p>
+                    <p class="producto__precio">$654.222</p>
+                    <a class="producto__enlace" href="producto.html">Ver Producto</a>
+                </div>
+            </div> <!--.producto-->
+
+
+        </div> <!--productos__grid-->
+
+    </main>
+
+    <section class="cursos">
+        <div class="cursos__contenedor cursos__grid">
+            <div class="cursos__contenido">
+                <h2 class="cursos__heading">Aprende a tocar guitarra</h2>
+                <p class="cursos__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit porro temporibus esse iste omnis laborum? Doloribus nisi tenetur aliquid ullam at voluptatibus commodi, minima, quas incidunt alias, temporibus soluta sit?</p>
+                <a class="cursos__enlace" href="#">Más información</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <h2 class="blog__heading">Nuestro Blog</h2>
+
+        <div class="blog__contenedor blog__grid">
+            <article class="entrada">
+                <picture>
+                    <source loading="lazy" srcset="build/img/blog_1.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/blog_1.webp" type="image/webp">
+                    <img class="entrada__imagen" loading="lazy" src="build/img/blog_1.jpg" alt="imagen blog">
+                </picture>
+
+                <div class="entrada__contenido">
+                    <h3 class="entrada__titulo">¿Como elegir tu primer guitarra?</h3>
+                    <p class="entrada__fecha">13 de Octubre de 2022</p>
+                    <p class="entrada__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga aperiam tenetur dolor error. Dolorem aut, sapiente laudantium consequatur, ad perferendis nihil quasi maxime laborum omnis placeat nobis ducimus dolore.</p>
+
+                    <a class="entrada__enlace" href="entrada.html">Leer Entrada</a>
+                </div>
+            </article> <!--.entrada-->
+
+            <article class="entrada">
+                <picture>
+                    <source loading="lazy" srcset="build/img/blog_2.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/blog_2.webp" type="image/webp">
+                    <img class="entrada__imagen" loading="lazy" src="build/img/blog_2.jpg" alt="imagen blog">
+                </picture>
+
+                <div class="entrada__contenido">
+                    <h3 class="entrada__titulo">¿Como elegir tu primer guitarra?</h3>
+                    <p class="entrada__fecha">13 de Octubre de 2022</p>
+                    <p class="entrada__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga aperiam tenetur dolor error. Dolorem aut, sapiente laudantium consequatur, ad perferendis nihil quasi maxime laborum omnis placeat nobis ducimus dolore.</p>
+
+                    <a class="entrada__enlace" href="entrada.html">Leer Entrada</a>
+                </div>
+            </article> <!--.entrada-->
+
+            <article class="entrada">
+                <picture>
+                    <source loading="lazy" srcset="build/img/blog_3.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/blog_3.webp" type="image/webp">
+                    <img class="entrada__imagen" loading="lazy" src="build/img/blog_3.jpg" alt="imagen blog">
+                </picture>
+
+                <div class="entrada__contenido">
+                    <h3 class="entrada__titulo">¿Como elegir tu primer guitarra?</h3>
+                    <p class="entrada__fecha">13 de Octubre de 2022</p>
+                    <p class="entrada__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga aperiam tenetur dolor error. Dolorem aut, sapiente laudantium consequatur, ad perferendis nihil quasi maxime laborum omnis placeat nobis ducimus dolore.</p>
+
+                    <a class="entrada__enlace" href="entrada.html">Leer Entrada</a>
+                </div>
+            </article> <!--.entrada-->
+
+            <article class="entrada">
+                <picture>
+                    <source loading="lazy" srcset="build/img/blog_4.avif" type="image/avif">
+                    <source loading="lazy" srcset="build/img/blog_4.webp" type="image/webp">
+                    <img class="entrada__imagen" loading="lazy" src="build/img/blog_4.jpg" alt="imagen blog">
+                </picture>
+
+                <div class="entrada__contenido">
+                    <h3 class="entrada__titulo">¿Como elegir tu primer guitarra?</h3>
+                    <p class="entrada__fecha">13 de Octubre de 2022</p>
+                    <p class="entrada__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga aperiam tenetur dolor error. Dolorem aut, sapiente laudantium consequatur, ad perferendis nihil quasi maxime laborum omnis placeat nobis ducimus dolore.</p>
+
+                    <a class="entrada__enlace" href="entrada.html">Leer Entrada</a>
+                </div>
+            </article> <!--.entrada-->
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="footer__contenedor footer__contenido">
+            <nav class="footer__nav">
+                <a class="footer__enlace" href="index.html">Inicio</a>
+                <a class="footer__enlace" href="nosotros.html">Nosotros</a>
+                <a class="footer__enlace" href="blog.html">Blog</a>
+                <a class="footer__enlace" href="tienda.html">Tienda</a>
+           
+            </nav>
+
+            <p class="footer__copyright">Derechos Reservados &copy; 2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
